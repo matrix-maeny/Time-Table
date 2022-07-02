@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/weekModelLayout"
+    android:layout_width="200dp"
+    android:layout_height="45dp"
+    android:background="@drawable/week_model_background"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/weekName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="@string/monday"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:focusable="true"
+        tools:ignore="UnusedAttribute" />
+</LinearLayout>
